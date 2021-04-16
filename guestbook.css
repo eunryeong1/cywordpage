@@ -1,0 +1,52 @@
+.name{
+    color:blue;
+}
+
+.guestbook{
+    overflow: auto;
+    margin:5px 10px 10px 5px;
+
+}
+
+.guestname{
+    font-family: 'Jal_Onuel';
+    background-color:rgb(245, 223, 97);
+    border-radius: 5px;
+    padding:5px;
+    font-size: 16px;
+    margin: 10px 0px 0px 20px;
+}
+
+.detail{
+    margin:10px 0px 3px 20px;
+    display: flex;
+    align-items: center;
+    height: 280px;
+    
+}
+
+.guestbook-image{
+  flex: 0 0 8rem;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  width: 8rem;
+  background-size: cover;
+
+}
+
+.background-1{
+    background-image: url("./ground.jpg");
+    width: 200px;
+    height: 180px;
+
+}
+
+.guestbook-image > img {
+    width: 80%;
+}
+
+.hello{
+    font-family: 'Bazzi';
+    margin-left: 30px;
+}

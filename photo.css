@@ -1,0 +1,33 @@
+
+.photo-section{
+    display: flex;
+    flex:2;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+.photo-title{
+    flex:1;
+    background-color: rgb(247, 245, 167);
+    margin: 10px;
+    padding: 10px 0px 10px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: 'paybooc-Bold';
+}
+
+.photo{
+    flex:5;
+    height: 100%;
+    width: 500px;
+    margin-left:13px;
+    object-fit: contain;
+}
+
+.photo-detail{
+    flex:3;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right:29px;
+    font-family: 'Jal_Onuel';
+}

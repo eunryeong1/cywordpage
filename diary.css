@@ -1,0 +1,122 @@
+.date-box {
+    position: absolute;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 25px;
+    border: 1px solid #e7e7e7;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+  }
+  
+  .date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .scroll-box {
+    position: absolute;
+    margin-top:50px;
+    margin-left: 25px;
+    bottom: 15px;
+    overflow: auto;
+  }
+  
+  .color-red {
+      color: red;
+  }
+  
+  .color-blue {
+    color: blue;
+  }
+
+  .diary {
+    width: 550px;
+    height: 480px;
+    margin-top: 69px;
+    margin-left: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+  .contents {
+    text-align: center;
+    padding: 5px;
+    line-height: 200%;
+    font-family: 'paybooc-Bold';
+}
+
+.secret-diary {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    background-color: white;
+    color: white;
+    left: 8.8rem;  
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+.date_box {
+    flex: 0.9;
+    border: 1px solid black;
+
+    margin: 2rem;
+    font-size: 0.9rem;
+    
+}
+
+.day {
+    padding-top: 5px;
+    padding-left: 17px;
+    color: rgb(60, 134, 54);
+
+}
+
+.secret {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.secret-diary:hover .secret {
+    width: 11rem;
+    height: 1.5rem;
+    background-color: rgb(248, 250, 131);
+    color:black;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.secret-box{
+  background-color: rgb(248, 250, 131);
+}
+
+.icon {
+    color: rgb(238, 93, 93);
+}
+
+.secrets{
+  display:none;
+}

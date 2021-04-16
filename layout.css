@@ -1,0 +1,198 @@
+body {
+    background-color: #a3a3a3;
+    /** body에 배경이미지 적용 */
+    background-image: url("../static/images/pattern.png");
+    /** 고정된 사이즈로 설정 */
+    background-size: 100px;
+  
+    /** 기본 body 사이즈를 화면 크기로 고정 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .bookcover {
+    /** 배경 색깔 지정  */
+    background-color: #b4d1da;
+    /** 모서리 둥글게 */
+    border-radius: 9px;
+    /** 윤곽선 */
+    border: 1px solid #738186;
+  
+    /** 기본 너비, 높이 지정 (반응형 X) */
+    width: 960px;
+    height: 660px;
+  
+    /** 좌우 마진을 auto(중앙에 배치), 상하 마진을 100px로 지정 */
+    margin: 30px auto;
+  
+    /** .bookdot 요소에서 absolute 속성값을 이용하기 위해 position: relative 로 설정 */
+    position: relative;
+  }
+  
+  .bookdot{
+    border-radius: 9px;
+    border:3px dashed white;
+    position: absolute;
+    top:13px;
+    left: 13px;
+    bottom: 13px;
+    right: 13px;
+  }
+  
+  .page{
+    background-color:whitesmoke;
+    border-radius: 9px;
+    position:absolute;
+    top:10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    display:flex;
+  }
+  
+  .column1 {
+    flex:0.4;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .row1 {
+    flex:0.1;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .color{
+    color:red;
+  }
+  
+  .row2{
+    flex:2;
+    margin: 15px 5px 10px 10px;
+  }
+
+  .dropdown-first {
+    flex: 0;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 15px;
+    position: relative;
+    width: 170px;
+    margin:130px 15px 0px 17px;
+  }
+  
+  .under {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+  }
+  
+  .dropdown-wave {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-second {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .dropdown-first:hover > .dropdown-second {
+    display: block;
+  }
+  
+  .dropdown-second > a {
+    display: block;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 170px;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown-second > a:hover {
+    background-color: #fced66;
+  }
+  
+  .column2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .row3{
+    flex:0.1;
+    display:flex;
+    margin-left: 15px;
+    margin-bottom: 3px;
+  }
+  
+  .column3{
+    flex:1;
+  }
+  
+  .column4{
+    flex:1;
+    margin-top: 5px;
+  }
+  
+  .row4{
+    flex:2;
+    margin: 15px 0px 10px 10px;
+  }
+  
+  .column5{
+    flex:0.15;
+    border-radius: 2px;
+    margin: 8px 0px 10px 0px;
+  }
+  
+  .box{
+    background-color:white;
+    border-radius: 9px;
+    border:1px solid lightgrey;
+  }
+
+  .text{
+    position: relative;
+    top:18px;
+    font-size: 14px;
+    font-family: 'Jal_Onuel';
+  }
+  
+  .introduce{
+    margin:10px 11px 0px 18px;
+    font-size: 17px;
+    font-family: 'Bazzi';
+  }
+
+  .menu{
+    flex:0;
+    display:flex;
+    flex-direction: column;
+    margin-top: 52px;
+  }
+
+  .menu-button{
+    background-color: #fff279;
+    margin:12px 5px 0px 0px;
+    padding:3px;
+    color:black;
+    font-size: 13px;
+    padding:7px 0px 7px 5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border:0.5px solid rgb(189, 186, 186);
+    text-decoration: none;
+    font-family: 'paybooc-Bold';
+  }
